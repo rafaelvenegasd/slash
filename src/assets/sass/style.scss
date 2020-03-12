@@ -1,32 +1,58 @@
 
-.bg-Dark{
-    background-color: #1c2331;
+.link{
+    color: $white;
+    text-decoration: none;
 }
 
-.bg-Darker{
-    background-color: #161c27;
+.card{
+    width: 180px;
 }
 
-.item-img{
-    width: $img_width;
-    height: $img_height;
+.img-card{
+    height: 240px;
 }
 
-.center{
-    text-align-last: center;
-    text-align: -webkit-center;
+.box{
+    position: relative;
+}
+
+.dark{ 
+    background-color: $black;
+    color: $white;
+}
+
+.grey{
+    background-color: $grey;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: $center;
+    align-items: $center;
+    font-weight: bold;
+}
+
+.black-box{
+    width: 120px;
+    height: 30px;
+    left: 30px;
+    top: 225px;
+    position: absolute;
+}
+
+.grey-box{
+    height: 70px;
+}
+
+.btn-box{
+    background-color: $black;
+    color: $white;
+    text-transform: uppercase;
+    height: 30px;
 }
 
 .white{
-    color: white;
-}
-
-.border{
-    border: #161c27;
-}
-
-.space{
-    line-height : 2.5rem;
+    color: $white;
 }
 
 

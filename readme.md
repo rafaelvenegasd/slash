@@ -1,7 +1,7 @@
-# VUEJS Pill
-VueJs es una píldora básica sobre el uso de VueJs. Carga una galería de imágenes de una API y las muestra cargando 5 imágenes a la vez. 
+# Slash
+Slash is a part of a tecnical test for SlashMobility. This is a gallery of products in VueJS. 
 
-## Instalación/Uso
+## Install/Use
 1. Para ejecutar este proyecto, una vez clonado el repositorio necesitas inicializar NPM
 
 NOTA: Debes tener descargado [NPM](https://www.npmjs.com/get-npm)
