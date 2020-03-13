@@ -11,11 +11,16 @@ module.exports = {
     devServer: {
     contentBase: './dist',
     },
+    resolve: {
+        alias: {
+          vue$: 'vue/dist/vue.runtime.esm.js' // 'vue/dist/vue.runtime.common.js' for webpack 1
+        }
+    },
     module: {
         rules: [
             {
                 test: /\.m?js$/,
-                exclude: /(node_modules|bower_components)/,
+                exclude: /node_modules\/(?!bootstrap-vue\/src\/)/,
                 use: {
                 loader: 'babel-loader',
                     options: {
