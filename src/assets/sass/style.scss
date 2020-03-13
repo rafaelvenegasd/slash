@@ -4,16 +4,18 @@
     text-decoration: none;
 }
 
-.card{
+.box-width{
     width: 180px;
 }
 
 .img-card{
-    height: 240px;
+    width: 100%;
+    height: auto;
 }
 
 .box{
     position: relative;
+    margin: 10px 0;
 }
 
 .dark{ 
@@ -33,10 +35,10 @@
 }
 
 .black-box{
-    width: 120px;
-    height: 30px;
-    left: 30px;
-    top: 225px;
+    width: 70%;
+    height: 8%;
+    left: 15%;
+    top: 72%;
     position: absolute;
 }
 
